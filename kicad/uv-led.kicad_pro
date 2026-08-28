@@ -501,7 +501,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "uv-led-pcb.kicad_pro",
+    "filename": "uv-led.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -669,8 +669,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "uv-led-pcb.kicad_sch",
-        "name": "Root",
+        "filename": "uv-led.kicad_sch",
+        "name": "uv-led",
         "uuid": "e67fac83-14c9-457c-9fba-69cbeffeeea3"
       }
     ],
