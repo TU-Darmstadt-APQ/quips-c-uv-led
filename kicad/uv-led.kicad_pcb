@@ -8,10 +8,12 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "UV LED PCB")
-		(date "2026-08-25")
-		(rev "v0.1")
-		(company "APQ - TU Darmstadt")
+		(title "QUIPS-C UV-LED")
+		(date "2026-09-02")
+		(rev "1.0")
+		(company "TU Darmstadt")
+		(comment 1 "Copyright (©) 2026, Tom Güntzel <tom.guentzel@physik.tu-darmstadt.de>")
+		(comment 2 "Licensed under CERN OHL-W v2.0")
 	)
 	(layers
 		(0 "F.Cu" signal)

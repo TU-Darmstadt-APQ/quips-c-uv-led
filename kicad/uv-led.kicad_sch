@@ -5,10 +5,12 @@
 	(uuid "e67fac83-14c9-457c-9fba-69cbeffeeea3")
 	(paper "A4")
 	(title_block
-		(title "UV LED PCB")
-		(date "2026-08-25")
-		(rev "v0.1")
-		(company "APQ - TU Darmstadt")
+		(title "QUIPS-C UV-LED")
+		(date "2026-09-02")
+		(rev "1.0")
+		(company "TU Darmstadt")
+		(comment 1 "Copyright (©) 2026, Tom Güntzel <tom.guentzel@physik.tu-darmstadt.de>")
+		(comment 2 "Licensed under CERN OHL-W v2.0")
 	)
 	(lib_symbols
 		(symbol "Auxiliary_Items:MountingScrew"
@@ -325,6 +327,208 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Custom_logos:Logo_APQ"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#SYM"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Logo_APQ"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Atoms - Photons - Quanta"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Logo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Logo_APQ_0_0"
+				(text "APQ"
+					(at 3.81 0 0)
+					(effects
+						(font
+							(size 3.81 3.81)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "Logo_APQ_0_1"
+				(circle
+					(center -8.89 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -8.89 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -6.35 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -6.35 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.81 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Logo_APQ_1_1"
+				(circle
+					(center -8.89 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -6.35 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.81 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -694,6 +898,158 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Graphic:Logo_Open_Hardware_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#SYM"
+				(at 0 6.985 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Logo_Open_Hardware_Small"
+				(at 0 -5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Open Hardware logo, small"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Logo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Logo_Open_Hardware_Small_0_1"
+				(polyline
+					(pts
+						(xy 3.3528 -4.3434) (xy 3.302 -4.318) (xy 3.175 -4.2418) (xy 2.9972 -4.1148) (xy 2.7686 -3.9624)
+						(xy 2.54 -3.81) (xy 2.3622 -3.7084) (xy 2.2352 -3.6068) (xy 2.1844 -3.5814) (xy 2.159 -3.6068)
+						(xy 2.0574 -3.6576) (xy 1.905 -3.7338) (xy 1.8034 -3.7846) (xy 1.6764 -3.8354) (xy 1.6002 -3.8354)
+						(xy 1.6002 -3.8354) (xy 1.5494 -3.7338) (xy 1.4732 -3.5306) (xy 1.3462 -3.302) (xy 1.2446 -3.0226)
+						(xy 1.1176 -2.7178) (xy 0.9652 -2.413) (xy 0.8636 -2.1082) (xy 0.7366 -1.8288) (xy 0.6604 -1.6256)
+						(xy 0.6096 -1.4732) (xy 0.5842 -1.397) (xy 0.5842 -1.397) (xy 0.6604 -1.3208) (xy 0.7874 -1.2446)
+						(xy 1.0414 -1.016) (xy 1.2954 -0.6858) (xy 1.4478 -0.3302) (xy 1.524 0.0762) (xy 1.4732 0.4572)
+						(xy 1.3208 0.8128) (xy 1.0668 1.143) (xy 0.762 1.3716) (xy 0.4064 1.524) (xy 0 1.5748) (xy -0.381 1.5494)
+						(xy -0.7366 1.397) (xy -1.0668 1.143) (xy -1.2192 0.9906) (xy -1.397 0.6604) (xy -1.524 0.3048)
+						(xy -1.524 0.2286) (xy -1.4986 -0.1778) (xy -1.397 -0.5334) (xy -1.1938 -0.8636) (xy -0.9144 -1.143)
+						(xy -0.8636 -1.1684) (xy -0.7366 -1.27) (xy -0.635 -1.3462) (xy -0.5842 -1.397) (xy -1.0668 -2.5908)
+						(xy -1.143 -2.794) (xy -1.2954 -3.1242) (xy -1.397 -3.4036) (xy -1.4986 -3.6322) (xy -1.5748 -3.7846)
+						(xy -1.6002 -3.8354) (xy -1.6002 -3.8354) (xy -1.651 -3.8354) (xy -1.7272 -3.81) (xy -1.905 -3.7338)
+						(xy -2.0066 -3.683) (xy -2.1336 -3.6068) (xy -2.2098 -3.5814) (xy -2.2606 -3.6068) (xy -2.3622 -3.683)
+						(xy -2.54 -3.81) (xy -2.7686 -3.9624) (xy -2.9718 -4.0894) (xy -3.1496 -4.2164) (xy -3.302 -4.318)
+						(xy -3.3528 -4.3434) (xy -3.3782 -4.3434) (xy -3.429 -4.318) (xy -3.5306 -4.2164) (xy -3.7084 -4.064)
+						(xy -3.937 -3.8354) (xy -3.9624 -3.81) (xy -4.1656 -3.6068) (xy -4.318 -3.4544) (xy -4.4196 -3.3274)
+						(xy -4.445 -3.2766) (xy -4.445 -3.2766) (xy -4.4196 -3.2258) (xy -4.318 -3.0734) (xy -4.2164 -2.8956)
+						(xy -4.064 -2.667) (xy -3.6576 -2.0828) (xy -3.8862 -1.5494) (xy -3.937 -1.3716) (xy -4.0386 -1.1684)
+						(xy -4.0894 -1.0414) (xy -4.1148 -0.9652) (xy -4.191 -0.9398) (xy -4.318 -0.9144) (xy -4.5466 -0.8636)
+						(xy -4.8006 -0.8128) (xy -5.0546 -0.7874) (xy -5.2578 -0.7366) (xy -5.4356 -0.7112) (xy -5.5118 -0.6858)
+						(xy -5.5118 -0.6858) (xy -5.5372 -0.635) (xy -5.5372 -0.5588) (xy -5.5372 -0.4318) (xy -5.5626 -0.2286)
+						(xy -5.5626 0.0762) (xy -5.5626 0.127) (xy -5.5372 0.4064) (xy -5.5372 0.635) (xy -5.5372 0.762)
+						(xy -5.5372 0.8382) (xy -5.5372 0.8382) (xy -5.461 0.8382) (xy -5.3086 0.889) (xy -5.08 0.9144)
+						(xy -4.826 0.9652) (xy -4.8006 0.9906) (xy -4.5466 1.0414) (xy -4.318 1.0668) (xy -4.1656 1.1176)
+						(xy -4.0894 1.143) (xy -4.0894 1.143) (xy -4.0386 1.2446) (xy -3.9624 1.4224) (xy -3.8608 1.6256)
+						(xy -3.7846 1.8288) (xy -3.7084 2.0066) (xy -3.6576 2.159) (xy -3.6322 2.2098) (xy -3.6322 2.2098)
+						(xy -3.683 2.286) (xy -3.7592 2.413) (xy -3.8862 2.5908) (xy -4.064 2.8194) (xy -4.064 2.8448)
+						(xy -4.2164 3.0734) (xy -4.3434 3.2512) (xy -4.4196 3.3782) (xy -4.445 3.4544) (xy -4.445 3.4544)
+						(xy -4.3942 3.5052) (xy -4.2926 3.6322) (xy -4.1148 3.81) (xy -3.937 4.0132) (xy -3.8608 4.064)
+						(xy -3.6576 4.2926) (xy -3.5052 4.4196) (xy -3.4036 4.4958) (xy -3.3528 4.5212) (xy -3.3528 4.5212)
+						(xy -3.302 4.4704) (xy -3.1496 4.3688) (xy -2.9718 4.2418) (xy -2.7432 4.0894) (xy -2.7178 4.0894)
+						(xy -2.4892 3.937) (xy -2.3114 3.81) (xy -2.1844 3.7084) (xy -2.1336 3.683) (xy -2.1082 3.683)
+						(xy -2.032 3.7084) (xy -1.8542 3.7592) (xy -1.6764 3.8354) (xy -1.4732 3.937) (xy -1.27 4.0132)
+						(xy -1.143 4.064) (xy -1.0668 4.1148) (xy -1.0668 4.1148) (xy -1.0414 4.191) (xy -1.016 4.3434)
+						(xy -0.9652 4.572) (xy -0.9144 4.8514) (xy -0.889 4.9022) (xy -0.8382 5.1562) (xy -0.8128 5.3848)
+						(xy -0.7874 5.5372) (xy -0.762 5.588) (xy -0.7112 5.6134) (xy -0.5842 5.6134) (xy -0.4064 5.6134)
+						(xy -0.1524 5.6134) (xy 0.0762 5.6134) (xy 0.3302 5.6134) (xy 0.5334 5.6134) (xy 0.6858 5.588)
+						(xy 0.7366 5.588) (xy 0.7366 5.588) (xy 0.762 5.5118) (xy 0.8128 5.334) (xy 0.8382 5.1054) (xy 0.9144 4.826)
+						(xy 0.9144 4.7752) (xy 0.9652 4.5212) (xy 1.016 4.2926) (xy 1.0414 4.1402) (xy 1.0668 4.0894)
+						(xy 1.0668 4.0894) (xy 1.1938 4.0386) (xy 1.3716 3.9624) (xy 1.5748 3.8608) (xy 2.0828 3.6576)
+						(xy 2.7178 4.0894) (xy 2.7686 4.1402) (xy 2.9972 4.2926) (xy 3.175 4.4196) (xy 3.302 4.4958) (xy 3.3782 4.5212)
+						(xy 3.3782 4.5212) (xy 3.429 4.4704) (xy 3.556 4.3434) (xy 3.7338 4.191) (xy 3.9116 3.9878) (xy 4.064 3.8354)
+						(xy 4.2418 3.6576) (xy 4.3434 3.556) (xy 4.4196 3.4798) (xy 4.4196 3.429) (xy 4.4196 3.4036) (xy 4.3942 3.3274)
+						(xy 4.2926 3.2004) (xy 4.1656 2.9972) (xy 4.0132 2.794) (xy 3.8862 2.5908) (xy 3.7592 2.3876)
+						(xy 3.6576 2.2352) (xy 3.6322 2.159) (xy 3.6322 2.1336) (xy 3.683 2.0066) (xy 3.7592 1.8288) (xy 3.8608 1.6002)
+						(xy 4.064 1.1176) (xy 4.3942 1.0414) (xy 4.5974 1.016) (xy 4.8768 0.9652) (xy 5.1308 0.9144) (xy 5.5372 0.8382)
+						(xy 5.5626 -0.6604) (xy 5.4864 -0.6858) (xy 5.4356 -0.6858) (xy 5.2832 -0.7366) (xy 5.0546 -0.762)
+						(xy 4.8006 -0.8128) (xy 4.5974 -0.8636) (xy 4.3688 -0.9144) (xy 4.2164 -0.9398) (xy 4.1402 -0.9398)
+						(xy 4.1148 -0.9652) (xy 4.064 -1.0668) (xy 3.9878 -1.2446) (xy 3.9116 -1.4478) (xy 3.81 -1.651)
+						(xy 3.7338 -1.8542) (xy 3.683 -2.0066) (xy 3.6576 -2.0828) (xy 3.683 -2.1336) (xy 3.7846 -2.2606)
+						(xy 3.8862 -2.4638) (xy 4.0386 -2.667) (xy 4.191 -2.8956) (xy 4.318 -3.0734) (xy 4.3942 -3.2004)
+						(xy 4.445 -3.2766) (xy 4.4196 -3.3274) (xy 4.3434 -3.429) (xy 4.1656 -3.5814) (xy 3.937 -3.8354)
+						(xy 3.8862 -3.8608) (xy 3.683 -4.064) (xy 3.5306 -4.2164) (xy 3.4036 -4.318) (xy 3.3528 -4.3434)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -1193,50 +1549,50 @@
 		)
 	)
 	(junction
-		(at 132.08 110.49)
+		(at 119.38 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2eb30145-fb9c-4584-b411-67e74a357dd6")
 	)
 	(junction
-		(at 132.08 101.6)
+		(at 119.38 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c20f8db-8328-4cfb-a217-f10fa2321501")
 	)
 	(junction
-		(at 172.72 72.39)
+		(at 160.02 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0eb00c8-94af-4b5b-ab78-03b37310e629")
 	)
 	(junction
-		(at 132.08 119.38)
+		(at 119.38 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b83916fc-8272-4ee4-817d-9d7989d39399")
 	)
 	(junction
-		(at 127 128.27)
+		(at 114.3 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd2c9d40-d744-4d9f-b09c-496899243d4e")
 	)
 	(junction
-		(at 132.08 92.71)
+		(at 119.38 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfa11342-2fd4-4d33-995a-cb9e6c2a5547")
 	)
 	(junction
-		(at 162.56 69.85)
+		(at 149.86 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d696ada8-1c16-41c4-8f53-dd3d4f7867f5")
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 127 88.9)
+			(xy 114.3 87.63) (xy 114.3 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +1602,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 66.04) (xy 127 69.85)
+			(xy 114.3 66.04) (xy 114.3 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 114.3) (xy 127 115.57)
+			(xy 114.3 114.3) (xy 114.3 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 105.41) (xy 152.4 106.68)
+			(xy 139.7 105.41) (xy 139.7 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +1632,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 77.47) (xy 127 80.01)
+			(xy 114.3 77.47) (xy 114.3 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +1642,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 105.41) (xy 177.8 106.68)
+			(xy 165.1 105.41) (xy 165.1 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +1652,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 69.85) (xy 162.56 69.85)
+			(xy 162.56 69.85) (xy 149.86 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +1662,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 72.39) (xy 172.72 72.39)
+			(xy 162.56 72.39) (xy 160.02 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1316,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 101.6) (xy 132.08 110.49)
+			(xy 119.38 101.6) (xy 119.38 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +1682,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 110.49) (xy 132.08 119.38)
+			(xy 119.38 110.49) (xy 119.38 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1336,7 +1692,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 72.39) (xy 152.4 72.39)
+			(xy 160.02 72.39) (xy 139.7 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1346,7 +1702,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 69.85) (xy 152.4 69.85)
+			(xy 149.86 69.85) (xy 139.7 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1356,7 +1712,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 128.27) (xy 127 128.27)
+			(xy 119.38 128.27) (xy 114.3 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1366,7 +1722,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 67.31) (xy 172.72 72.39)
+			(xy 160.02 67.31) (xy 160.02 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 72.39) (xy 152.4 73.66)
+			(xy 139.7 72.39) (xy 139.7 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1386,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 83.82) (xy 132.08 92.71)
+			(xy 119.38 83.82) (xy 119.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1396,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 69.85) (xy 152.4 68.58)
+			(xy 139.7 69.85) (xy 139.7 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1406,7 +1762,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 96.52) (xy 127 97.79)
+			(xy 114.3 96.52) (xy 114.3 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1416,7 +1772,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 105.41) (xy 127 106.68)
+			(xy 114.3 105.41) (xy 114.3 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1426,7 +1782,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 92.71) (xy 132.08 101.6)
+			(xy 119.38 92.71) (xy 119.38 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +1792,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 67.31) (xy 162.56 69.85)
+			(xy 149.86 67.31) (xy 149.86 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1446,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 123.19) (xy 127 128.27)
+			(xy 114.3 123.19) (xy 114.3 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1456,7 +1812,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 119.38) (xy 132.08 128.27)
+			(xy 119.38 119.38) (xy 119.38 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +1822,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 162.56 67.31 0)
+		(at 149.86 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1477,7 +1833,7 @@
 		(fields_autoplaced yes)
 		(uuid "08970067-7dfb-4708-be39-713a647d0ae5")
 		(property "Reference" "#FLG03"
-			(at 162.56 65.405 0)
+			(at 149.86 65.405 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1488,7 +1844,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 162.56 62.23 0)
+			(at 149.86 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1498,7 +1854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 67.31 0)
+			(at 149.86 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1509,7 +1865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 67.31 0)
+			(at 149.86 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1520,7 +1876,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 162.56 67.31 0)
+			(at 149.86 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1544,7 +1900,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 152.4 102.87 0)
+		(at 139.7 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1555,7 +1911,7 @@
 		(fields_autoplaced yes)
 		(uuid "0adf3934-a914-448b-b0fd-d6f064267371")
 		(property "Reference" "H1"
-			(at 154.94 100.3299 0)
+			(at 142.24 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1566,7 +1922,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 154.94 102.8699 0)
+			(at 142.24 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1577,7 +1933,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
-			(at 152.4 102.87 0)
+			(at 139.7 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1588,7 +1944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 102.87 0)
+			(at 139.7 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1599,7 +1955,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 152.4 102.87 0)
+			(at 139.7 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1623,7 +1979,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Pad")
-		(at 127 101.6 90)
+		(at 114.3 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1634,7 +1990,7 @@
 		(fields_autoplaced yes)
 		(uuid "31f8c8dc-17dd-437d-89d2-4cb780bda548")
 		(property "Reference" "D3"
-			(at 123.19 100.3299 90)
+			(at 110.49 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1645,7 +2001,7 @@
 			)
 		)
 		(property "Value" "SST-08H"
-			(at 123.19 102.8699 90)
+			(at 110.49 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1656,7 +2012,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Cree-XHP35"
-			(at 127 101.6 0)
+			(at 114.3 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1667,7 +2023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 101.6 0)
+			(at 114.3 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1678,7 +2034,7 @@
 			)
 		)
 		(property "Description" "Luminus Devices SST-08H-UV"
-			(at 127 101.6 0)
+			(at 114.3 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1689,7 +2045,7 @@
 			)
 		)
 		(property "MN" "SST-08-UV-A40H-F365-00 "
-			(at 127 101.6 90)
+			(at 114.3 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1700,7 +2056,7 @@
 			)
 		)
 		(property "Mfr" "Luminus Devices"
-			(at 127 101.6 90)
+			(at 114.3 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1730,7 +2086,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Pad")
-		(at 127 92.71 90)
+		(at 114.3 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1741,7 +2097,7 @@
 		(fields_autoplaced yes)
 		(uuid "3534bfa8-49ad-42d2-a6e6-aa7549a64fe9")
 		(property "Reference" "D2"
-			(at 123.19 91.4399 90)
+			(at 110.49 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1752,7 +2108,7 @@
 			)
 		)
 		(property "Value" "SST-08H"
-			(at 123.19 93.9799 90)
+			(at 110.49 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1763,7 +2119,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Cree-XHP35"
-			(at 127 92.71 0)
+			(at 114.3 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1774,7 +2130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 92.71 0)
+			(at 114.3 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1785,7 +2141,7 @@
 			)
 		)
 		(property "Description" "Luminus Devices SST-08H-UV"
-			(at 127 92.71 0)
+			(at 114.3 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1796,7 +2152,7 @@
 			)
 		)
 		(property "MN" "SST-08-UV-A40H-F365-00 "
-			(at 127 92.71 90)
+			(at 114.3 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1807,7 +2163,7 @@
 			)
 		)
 		(property "Mfr" "Luminus Devices"
-			(at 127 92.71 90)
+			(at 114.3 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1836,41 +2192,40 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Pad")
-		(at 127 110.49 90)
+		(lib_id "Graphic:Logo_Open_Hardware_Small")
+		(at 278.13 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e52f49f-6a0f-4643-9ded-41746b735830")
-		(property "Reference" "D4"
-			(at 123.19 109.2199 90)
+		(uuid "4e2c13e3-b17e-4343-b52d-6fbd64422300")
+		(property "Reference" "LOGO3"
+			(at 278.13 167.005 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SST-08H"
-			(at 123.19 111.7599 90)
+		(property "Value" "Logo_Open_Hardware_Small"
+			(at 278.13 179.705 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-XHP35"
-			(at 127 110.49 0)
+		(property "Footprint" "Symbol:OSHW-Logo_7.5x8mm_SilkScreen"
+			(at 278.13 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1881,7 +2236,116 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 110.49 0)
+			(at 278.13 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" ""
+			(at 278.13 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 278.13 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 278.13 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "uv-led"
+				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
+					(reference "LOGO3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 114.3 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e52f49f-6a0f-4643-9ded-41746b735830")
+		(property "Reference" "D4"
+			(at 110.49 109.2199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SST-08H"
+			(at 110.49 111.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-XHP35"
+			(at 114.3 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1892,7 +2356,7 @@
 			)
 		)
 		(property "Description" "Luminus Devices SST-08H-UV"
-			(at 127 110.49 0)
+			(at 114.3 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1903,7 +2367,7 @@
 			)
 		)
 		(property "MN" "SST-08-UV-A40H-F365-00 "
-			(at 127 110.49 90)
+			(at 114.3 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1914,7 +2378,7 @@
 			)
 		)
 		(property "Mfr" "Luminus Devices"
-			(at 127 110.49 90)
+			(at 114.3 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1944,7 +2408,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 73.66 0)
+		(at 139.7 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1955,7 +2419,7 @@
 		(fields_autoplaced yes)
 		(uuid "517d61a6-a6bf-4634-88df-79c4a66ba0d9")
 		(property "Reference" "#PWR08"
-			(at 152.4 80.01 0)
+			(at 139.7 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1966,7 +2430,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 78.74 0)
+			(at 139.7 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1976,7 +2440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 73.66 0)
+			(at 139.7 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1987,7 +2451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 73.66 0)
+			(at 139.7 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1998,7 +2462,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 73.66 0)
+			(at 139.7 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2022,7 +2486,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 106.68 0)
+		(at 139.7 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2033,7 +2497,7 @@
 		(fields_autoplaced yes)
 		(uuid "5af0803c-4622-4d19-99b7-cf52d27ffc61")
 		(property "Reference" "#PWR04"
-			(at 152.4 113.03 0)
+			(at 139.7 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2044,7 +2508,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 111.76 0)
+			(at 139.7 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2054,7 +2518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 106.68 0)
+			(at 139.7 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2065,7 +2529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 106.68 0)
+			(at 139.7 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2076,7 +2540,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 106.68 0)
+			(at 139.7 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2100,7 +2564,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 180.34 69.85 0)
+		(at 167.64 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2111,7 +2575,7 @@
 		(fields_autoplaced yes)
 		(uuid "64245b75-46c4-4508-a04f-7f32f71fda5d")
 		(property "Reference" "J1"
-			(at 182.88 69.8499 0)
+			(at 170.18 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2122,7 +2586,7 @@
 			)
 		)
 		(property "Value" "JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 182.88 72.3899 0)
+			(at 170.18 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2133,7 +2597,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 180.34 69.85 0)
+			(at 167.64 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2144,7 +2608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 69.85 0)
+			(at 167.64 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2155,7 +2619,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 180.34 69.85 0)
+			(at 167.64 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2166,7 +2630,7 @@
 			)
 		)
 		(property "MN" "PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 180.34 69.85 0)
+			(at 167.64 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2177,7 +2641,7 @@
 			)
 		)
 		(property "Mfr" "JST Commercial"
-			(at 180.34 69.85 0)
+			(at 167.64 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2204,7 +2668,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 172.72 67.31 0)
+		(at 160.02 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2215,7 +2679,7 @@
 		(fields_autoplaced yes)
 		(uuid "6662c802-ea05-40fa-9f76-779ec130f37a")
 		(property "Reference" "#FLG04"
-			(at 172.72 65.405 0)
+			(at 160.02 65.405 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2226,7 +2690,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 172.72 62.23 0)
+			(at 160.02 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2236,7 +2700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 67.31 0)
+			(at 160.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,7 +2711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 67.31 0)
+			(at 160.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,7 +2722,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 172.72 67.31 0)
+			(at 160.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2282,7 +2746,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 177.8 102.87 0)
+		(at 165.1 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2293,7 +2757,7 @@
 		(fields_autoplaced yes)
 		(uuid "691b09a5-953e-477d-88f6-68d248a32261")
 		(property "Reference" "H2"
-			(at 180.34 100.3299 0)
+			(at 167.64 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2304,7 +2768,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 180.34 102.8699 0)
+			(at 167.64 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2315,7 +2779,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
-			(at 177.8 102.87 0)
+			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2326,7 +2790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 102.87 0)
+			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2337,7 +2801,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 177.8 102.87 0)
+			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2361,7 +2825,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Pad")
-		(at 127 83.82 90)
+		(at 114.3 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2372,7 +2836,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e0235d4-4dc8-4661-9664-cd75fd59e297")
 		(property "Reference" "D1"
-			(at 123.19 82.5499 90)
+			(at 110.49 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2383,7 +2847,7 @@
 			)
 		)
 		(property "Value" "SST-08H"
-			(at 123.19 85.0899 90)
+			(at 110.49 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2394,7 +2858,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Cree-XHP35"
-			(at 127 83.82 0)
+			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2405,7 +2869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 83.82 0)
+			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2416,7 +2880,7 @@
 			)
 		)
 		(property "Description" "Luminus Devices SST-08H-UV"
-			(at 127 83.82 0)
+			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2427,7 +2891,7 @@
 			)
 		)
 		(property "MN" "SST-08-UV-A40H-F365-00 "
-			(at 127 83.82 90)
+			(at 114.3 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2438,7 +2902,7 @@
 			)
 		)
 		(property "Mfr" "Luminus Devices"
-			(at 127 83.82 90)
+			(at 114.3 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2468,7 +2932,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 152.4 68.58 0)
+		(at 139.7 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2479,7 +2943,7 @@
 		(fields_autoplaced yes)
 		(uuid "7815025c-a57b-430a-af09-214a21e70704")
 		(property "Reference" "#PWR07"
-			(at 152.4 72.39 0)
+			(at 139.7 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2490,7 +2954,7 @@
 			)
 		)
 		(property "Value" "+20V"
-			(at 152.4 63.5 0)
+			(at 139.7 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2500,7 +2964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 68.58 0)
+			(at 139.7 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2511,7 +2975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 68.58 0)
+			(at 139.7 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2522,7 +2986,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+20V\""
-			(at 152.4 68.58 0)
+			(at 139.7 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2546,7 +3010,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Pad")
-		(at 127 119.38 90)
+		(at 114.3 119.38 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2557,7 +3021,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d2b9bc4-016e-42f4-b3a3-9373d8354c71")
 		(property "Reference" "D5"
-			(at 123.19 118.1099 90)
+			(at 110.49 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2568,7 +3032,7 @@
 			)
 		)
 		(property "Value" "SST-08H"
-			(at 123.19 120.6499 90)
+			(at 110.49 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2579,7 +3043,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Cree-XHP35"
-			(at 127 119.38 0)
+			(at 114.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2590,7 +3054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 119.38 0)
+			(at 114.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2601,7 +3065,7 @@
 			)
 		)
 		(property "Description" "Luminus Devices SST-08H-UV"
-			(at 127 119.38 0)
+			(at 114.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2612,7 +3076,7 @@
 			)
 		)
 		(property "MN" "SST-08-UV-A40H-F365-00 "
-			(at 127 119.38 90)
+			(at 114.3 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2623,7 +3087,7 @@
 			)
 		)
 		(property "Mfr" "Luminus Devices"
-			(at 127 119.38 90)
+			(at 114.3 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2653,7 +3117,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 128.27 0)
+		(at 114.3 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2664,7 +3128,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6140ad9-887b-42e9-98f3-f9ebccc1e9b7")
 		(property "Reference" "#PWR02"
-			(at 127 134.62 0)
+			(at 114.3 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2675,7 +3139,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 133.35 0)
+			(at 114.3 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2685,7 +3149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 128.27 0)
+			(at 114.3 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2696,7 +3160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 128.27 0)
+			(at 114.3 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2707,7 +3171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 128.27 0)
+			(at 114.3 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2731,7 +3195,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 106.68 0)
+		(at 165.1 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2742,7 +3206,7 @@
 		(fields_autoplaced yes)
 		(uuid "af043b3a-b12c-4cd2-a7c8-d886547878bc")
 		(property "Reference" "#PWR03"
-			(at 177.8 113.03 0)
+			(at 165.1 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2753,7 +3217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 111.76 0)
+			(at 165.1 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2763,7 +3227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 106.68 0)
+			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2774,7 +3238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 106.68 0)
+			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2785,7 +3249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 106.68 0)
+			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +3273,7 @@
 	)
 	(symbol
 		(lib_id "Auxiliary_Items:MountingScrew")
-		(at 152.4 96.52 0)
+		(at 139.7 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2820,7 +3284,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4727208-76b5-4fdb-8418-0a930d204f9f")
 		(property "Reference" "H3"
-			(at 152.4 92.456 0)
+			(at 139.7 92.456 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2831,7 +3295,7 @@
 			)
 		)
 		(property "Value" "MountingScrew"
-			(at 152.4 100.076 0)
+			(at 139.7 100.076 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2842,7 +3306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 96.52 0)
+			(at 139.7 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2853,7 +3317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 96.52 0)
+			(at 139.7 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2864,7 +3328,7 @@
 			)
 		)
 		(property "Description" "Mounting screw"
-			(at 152.4 96.52 0)
+			(at 139.7 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2885,7 +3349,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 127 73.66 180)
+		(at 114.3 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2896,7 +3360,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7fc05de-cf2c-472a-99b7-eeb12cc9190c")
 		(property "Reference" "R1"
-			(at 129.54 72.3899 0)
+			(at 116.84 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2907,7 +3371,7 @@
 			)
 		)
 		(property "Value" "4R"
-			(at 129.54 74.9299 0)
+			(at 116.84 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2918,7 +3382,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1218_3246Metric"
-			(at 128.778 73.66 90)
+			(at 116.078 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2929,7 +3393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 73.66 0)
+			(at 114.3 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2940,7 +3404,7 @@
 			)
 		)
 		(property "Description" "Resistor 4 Ohm"
-			(at 127 73.66 0)
+			(at 114.3 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2951,7 +3415,7 @@
 			)
 		)
 		(property "PN" "CRCW12184R02FKEKHP"
-			(at 127 73.66 90)
+			(at 114.3 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2962,7 +3426,7 @@
 			)
 		)
 		(property "MFN" "Vishay"
-			(at 127 73.66 90)
+			(at 114.3 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2988,19 +3452,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Auxiliary_Items:MountingScrew")
-		(at 177.8 96.52 0)
+		(lib_id "Custom_logos:Logo_APQ")
+		(at 257.81 171.45 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f78e7293-c015-41d4-9aa5-982caa2d1c95")
-		(property "Reference" "H4"
-			(at 177.8 92.456 0)
+		(uuid "cf9aaeb4-9c5f-4aa2-8dfb-b28eda3c5383")
+		(property "Reference" "LOGO1"
+			(at 264.16 164.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3010,8 +3473,8 @@
 				)
 			)
 		)
-		(property "Value" "MountingScrew"
-			(at 177.8 100.076 0)
+		(property "Value" "Logo_APQ"
+			(at 264.16 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3021,8 +3484,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 96.52 0)
+		(property "Footprint" "Custom_footprints_project:APQ-Logo_small"
+			(at 265.43 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3033,7 +3496,116 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 96.52 0)
+			(at 265.43 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" ""
+			(at 257.81 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 257.81 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 257.81 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "uv-led"
+				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
+					(reference "LOGO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Auxiliary_Items:MountingScrew")
+		(at 165.1 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f78e7293-c015-41d4-9aa5-982caa2d1c95")
+		(property "Reference" "H4"
+			(at 165.1 92.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingScrew"
+			(at 165.1 100.076 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3044,7 +3616,7 @@
 			)
 		)
 		(property "Description" "Mounting screw"
-			(at 177.8 96.52 0)
+			(at 165.1 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3065,7 +3637,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 127 66.04 0)
+		(at 114.3 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3076,7 +3648,7 @@
 		(fields_autoplaced yes)
 		(uuid "fab61159-f2a0-4b07-98d4-ad666c22d097")
 		(property "Reference" "#PWR01"
-			(at 127 69.85 0)
+			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3087,7 +3659,7 @@
 			)
 		)
 		(property "Value" "+20V"
-			(at 127 60.96 0)
+			(at 114.3 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3097,7 +3669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 66.04 0)
+			(at 114.3 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3108,7 +3680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 66.04 0)
+			(at 114.3 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3119,7 +3691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+20V\""
-			(at 127 66.04 0)
+			(at 114.3 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
