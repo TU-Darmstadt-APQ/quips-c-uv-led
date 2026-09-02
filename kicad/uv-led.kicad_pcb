@@ -2749,6 +2749,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+"
+		(at 173.5 100.8 0)
+		(layer "F.SilkS")
+		(uuid "1812d066-c4af-4abe-b48b-131740087011")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 175.5 100.8 0)
+		(layer "B.SilkS")
+		(uuid "02da47dd-11cf-4c90-ba86-b9323db36038")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 142.6 100)
 		(end 139.4 100)
