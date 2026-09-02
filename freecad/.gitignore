@@ -1,0 +1,9 @@
+# FreeCAD backup files
+*.FCBak
+
+# Exported files
+*.svg
+*.pdf
+*.step
+*.STEP
+*.stp
