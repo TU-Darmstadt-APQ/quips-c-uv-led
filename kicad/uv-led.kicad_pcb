@@ -506,6 +506,32 @@
 				)
 			)
 		)
+		(property "Temperature" "Top = 0 °C to 100 °C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c2ed57f-be2b-4622-b716-49f8dcbcb79a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d32956ae-4f33-47f6-a3cb-6c9bbceae4ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/4e52f49f-6a0f-4643-9ded-41746b735830")
 		(sheetname "/")
@@ -840,6 +866,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "20371f39-468c-487d-9bd6-40ce00671fef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Temperature" "Top = 0 °C to 100 °C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88c0b2b7-0dd0-47fb-b02e-ec946cb3e7d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "319eb5c8-b0b1-4aab-b378-4b69db49457c")
 			(effects
 				(font
 					(size 1 1)
@@ -1188,6 +1240,32 @@
 				)
 			)
 		)
+		(property "Temperature" "Top = 0 °C to 125 °C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "447c4e93-1627-44cb-b6fd-ee14baefcf81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83488139-1045-41f9-8353-6ea2836e1dad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/6e0235d4-4dc8-4661-9664-cd75fd59e297")
 		(sheetname "/")
@@ -1529,6 +1607,32 @@
 				)
 			)
 		)
+		(property "Temperature" "Top = 0 °C to 100 °C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb29dfbd-a247-4957-b0d0-016ec986c50c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "382c2748-1e53-49b1-99b6-418b52ac1c9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3534bfa8-49ad-42d2-a6e6-aa7549a64fe9")
 		(sheetname "/")
@@ -1863,6 +1967,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "328a57d6-0cef-41ff-ba92-58da29fbc9ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Temperature" "Top = 0 °C to 100 °C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e496a31b-3d0b-492c-abdf-c6e6d43451d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30cf3255-b091-4de3-885e-752bbb4fac8e")
 			(effects
 				(font
 					(size 1 1)
@@ -2344,6 +2474,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "65330bf6-b4e8-44cf-a884-c9b325f9681d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Temperature" "Top = -55 °C to 100 °C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10fbe2b3-76e1-4592-8f17-0c020af1edf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "RoHS" "By exemption"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ec4daba-7fca-4e03-a247-307f49d87669")
 			(effects
 				(font
 					(size 1 1)

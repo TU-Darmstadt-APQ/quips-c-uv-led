@@ -2106,6 +2106,28 @@
 				)
 			)
 		)
+		(property "Temperature" "Top = 0 °C to 100 °C"
+			(at 114.3 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 114.3 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "902ff921-d1ec-4964-a903-76a913a28dc9")
 		)
@@ -2203,6 +2225,28 @@
 			)
 		)
 		(property "Mfr" "Luminus Devices"
+			(at 114.3 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" "Top = 0 °C to 100 °C"
+			(at 114.3 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Yes"
 			(at 114.3 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -2418,6 +2462,28 @@
 			)
 		)
 		(property "Mfr" "Luminus Devices"
+			(at 114.3 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" "Top = 0 °C to 100 °C"
+			(at 114.3 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Yes"
 			(at 114.3 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -2952,6 +3018,28 @@
 				)
 			)
 		)
+		(property "Temperature" "Top = 0 °C to 125 °C"
+			(at 114.3 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 114.3 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "df71cf4a-71c8-4b87-b1be-2ae5fec67dab")
 		)
@@ -3127,6 +3215,28 @@
 			)
 		)
 		(property "Mfr" "Luminus Devices"
+			(at 114.3 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" "Top = 0 °C to 100 °C"
+			(at 114.3 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "Yes"
 			(at 114.3 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -3467,6 +3577,28 @@
 		)
 		(property "MFN" "Vishay"
 			(at 114.3 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" "Top = -55 °C to 100 °C"
+			(at 114.3 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "By exemption"
+			(at 114.3 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
