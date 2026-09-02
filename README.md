@@ -8,9 +8,8 @@ Adsorption of Rubidium atoms on the vacuum chamber surfaces can lead to stray el
 Available Files
 -------
 This repository includes:
-- FreeCAD-files containing the model for the mounting apparatus
-- KiCAD-files containing the design for the PCB housing the LEDs
-Additional resources such as Gerber files will be added in the future.
+- FreeCAD-files containing the model for the mounting apparatus.
+- KiCAD-files containing the PCB design housing the LEDs. Additional resources such as Gerber files will be added in the future.
 
 Mounting Requirements
 -------
