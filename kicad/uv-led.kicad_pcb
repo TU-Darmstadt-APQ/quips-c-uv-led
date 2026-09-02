@@ -2876,7 +2876,7 @@
 		(layer "Edge.Cuts")
 		(uuid "39efb055-6e45-455e-8289-0b5d92df6c02")
 	)
-	(gr_text "UV-LED v0.1\nDesign: T. Guentzel\nDate: 2026-09"
+	(gr_text "UV-LED 1.0\nDesign: T. Guentzel\nDate: 2026-09"
 		(at 122.6 101.8 0)
 		(layer "F.SilkS")
 		(uuid "282b8cf5-b52a-4270-84f2-bba55ff62868")

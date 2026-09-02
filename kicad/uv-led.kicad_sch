@@ -1548,6 +1548,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "absolute maximum\njunction temperature: 100 °C"
+		(exclude_from_sim no)
+		(at 85.852 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08a971d5-7fb4-43dc-9703-874145991b10")
+	)
+	(text "voltage drop-off per LED:\n~3.6 V (binning dependent)\ntotal drop-off: 18 V"
+		(exclude_from_sim no)
+		(at 85.598 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14ab9e0d-9151-45ae-bb32-da4e0c0d7b5f")
+	)
+	(text "resistor voltage drop-off: 2 V at 0.5 A"
+		(exclude_from_sim no)
+		(at 92.964 74.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31a9fddc-f8a5-4ea5-9f50-79a8a60eefb7")
+	)
+	(text "power specification: 20 V / 0.5 A\noptical power output: 4 W\nthermal power output: 6 W"
+		(exclude_from_sim no)
+		(at 155.956 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f59728c2-2378-4c44-a816-574942a9e3b6")
+	)
 	(junction
 		(at 119.38 110.49)
 		(diameter 0)
