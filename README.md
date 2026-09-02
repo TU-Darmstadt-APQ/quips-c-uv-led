@@ -1,9 +1,9 @@
 # QUIPS-C UV-LEDs PCB and Mounting Apparatus
 UV-LEDs intended for QUIPS-C experiment, includes CAD-models of mount and PCB.
-
-Purpose
--------
 Adsorption of Rubidium atoms on the vacuum chamber surfaces can lead to stray electric fields, negatively impacting the Rydberg transition. Ionisation by UV light aims to suppress this effect.
+
+![pcb-front](kicad/images/uv-led_front.png)
+![pcb-back](kicad/images/uv-led_back.png)
 
 Available Files
 -------
@@ -42,5 +42,5 @@ Overall design specifications:
 
 License
 -------
-This work is released under the CERN OHL v.1.2
-See www.ohwr.org/licenses/cern-ohl/v1.2 or the included LICENSE file for more information.
+This work is released under the CERN-OHL-W
+See [https://ohwr.org/cern_ohl_w_v2.pdf](https://ohwr.org/cern_ohl_w_v2.pdf) or the included LICENSE file for more information.
