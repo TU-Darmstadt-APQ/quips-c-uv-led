@@ -1534,7 +1534,7 @@
 			(uuid "78988bc5-7704-4fe2-b1c6-f6ab96543a15")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "#FLG03")
 					(unit 1)
@@ -1576,7 +1576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
 			(at 152.4 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1613,7 +1613,7 @@
 			(uuid "8c765a66-20c0-46d2-b858-9cf043d49308")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "H1")
 					(unit 1)
@@ -1720,7 +1720,7 @@
 			(uuid "522ae079-cadc-44ad-be49-bbc8e255c312")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "D3")
 					(unit 1)
@@ -1827,7 +1827,7 @@
 			(uuid "d5a4a0d3-f10e-4678-8921-75e9ebf1b001")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "D2")
 					(unit 1)
@@ -1934,7 +1934,7 @@
 			(uuid "d9fb75a8-9066-4182-a95a-8f694938f206")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "D4")
 					(unit 1)
@@ -2012,7 +2012,7 @@
 			(uuid "6c869fbf-c926-4bb6-b0a1-2452dc93e70a")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "#PWR08")
 					(unit 1)
@@ -2090,7 +2090,7 @@
 			(uuid "3ac3d1cd-ac77-42b9-83a2-a289c6d26bd1")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "#PWR04")
 					(unit 1)
@@ -2194,7 +2194,7 @@
 			(uuid "bb1323f5-3374-44b5-b243-1cd373a772c6")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "J1")
 					(unit 1)
@@ -2272,7 +2272,7 @@
 			(uuid "9e8e8901-2843-4d1d-84e8-f29f4fd06d41")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "#FLG04")
 					(unit 1)
@@ -2314,7 +2314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
 			(at 177.8 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2351,7 +2351,7 @@
 			(uuid "1ecbb8d8-cc03-4d64-b55d-1b6265c989b4")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "H2")
 					(unit 1)
@@ -2458,7 +2458,7 @@
 			(uuid "c83bec75-e0fd-476a-a93d-49ed6382ebbd")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "D1")
 					(unit 1)
@@ -2536,7 +2536,7 @@
 			(uuid "d6e8cda7-b225-493a-b788-30c05330e254")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "#PWR07")
 					(unit 1)
@@ -2643,7 +2643,7 @@
 			(uuid "b2777ea8-c231-40ca-9b1c-dabdd83f81eb")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "D5")
 					(unit 1)
@@ -2721,7 +2721,7 @@
 			(uuid "06718b76-c484-40e7-b1f8-7418a258faaf")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "#PWR02")
 					(unit 1)
@@ -2799,7 +2799,7 @@
 			(uuid "78b68315-2ef5-49c9-b957-0a275bbb91ce")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "#PWR03")
 					(unit 1)
@@ -2875,7 +2875,7 @@
 			)
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "H3")
 					(unit 1)
@@ -2979,7 +2979,7 @@
 			(uuid "1fd10ac4-6a0b-4493-8839-d18bfe50c50f")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "R1")
 					(unit 1)
@@ -3055,7 +3055,7 @@
 			)
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "H4")
 					(unit 1)
@@ -3133,7 +3133,7 @@
 			(uuid "4739f082-21b0-4180-a49c-a225bcf4a590")
 		)
 		(instances
-			(project "uv-led-pcb"
+			(project "uv-led"
 				(path "/e67fac83-14c9-457c-9fba-69cbeffeeea3"
 					(reference "#PWR01")
 					(unit 1)

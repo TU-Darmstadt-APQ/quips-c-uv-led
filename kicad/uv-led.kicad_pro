@@ -539,7 +539,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../freecad/uv-leds/mount-45deg/kicad-pcb/uv-led.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -680,7 +680,7 @@
   "sheets": [
     [
       "e67fac83-14c9-457c-9fba-69cbeffeeea3",
-      "Root"
+      "uv-led"
     ]
   ],
   "text_variables": {},
