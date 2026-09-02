@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.565)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -21,7 +21,6 @@
 		(13 "F.Paste" user)
 		(15 "B.Paste" user)
 		(5 "F.SilkS" user "F.Silkscreen")
-		(7 "B.SilkS" user "B.Silkscreen")
 		(1 "F.Mask" user)
 		(3 "B.Mask" user)
 		(17 "Dwgs.User" user "User.Drawings")
@@ -65,7 +64,7 @@
 			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
@@ -73,9 +72,6 @@
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
-			)
-			(layer "B.SilkS"
-				(type "Bottom Silk Screen")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -96,6 +92,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -2759,18 +2756,6 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "+"
-		(at 175.5 100.8 0)
-		(layer "B.SilkS")
-		(uuid "02da47dd-11cf-4c90-ba86-b9323db36038")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
 		)
 	)
 	(segment
