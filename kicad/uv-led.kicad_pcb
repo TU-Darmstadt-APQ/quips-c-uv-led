@@ -129,6 +129,169 @@
 			(outputdirectory "")
 		)
 	)
+	(footprint "footprints_project_specific:APQ-Logo_small"
+		(layer "F.Cu")
+		(uuid "270fadb4-a2f8-40e8-8d3d-3e3a6fd9a6da")
+		(at 113.5 99)
+		(property "Reference" "REF**"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ff078325-40cc-40a2-9764-a752323e2745")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "APQ-Logo_small"
+			(at 4.5 4 0)
+			(layer "F.Fab")
+			(uuid "a0d21f66-9481-4215-92ab-6c24b9c13fae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6bfc596-145d-4960-afb4-d8314047f7f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b327a66-550f-40ed-9263-daa0a22e12c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0.125 0)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ab035f01-f832-4b08-85b4-efaeb6931843")
+		)
+		(fp_circle
+			(center 0 1)
+			(end 0.125 1)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "175b57f0-8eaa-4725-bb51-e9b8c74de726")
+		)
+		(fp_circle
+			(center 0 2)
+			(end 0.125 2)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "1b5111aa-bebd-44af-becc-2e22c4d2304e")
+		)
+		(fp_circle
+			(center 1 0)
+			(end 1.125 0)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "e002adb7-fb5b-4bbf-ac3e-783b99af05f8")
+		)
+		(fp_circle
+			(center 1 1)
+			(end 1.125 1)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "11fd64fa-b9bf-4917-bb58-a46bbf645dca")
+		)
+		(fp_circle
+			(center 1 2)
+			(end 1.125 2)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "1bd1727c-d940-43af-876a-fda72a3a0f1a")
+		)
+		(fp_circle
+			(center 2 0)
+			(end 2.125 0)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "9ac372a2-1a2f-4d80-b93e-af12d5c2ade0")
+		)
+		(fp_circle
+			(center 2 1)
+			(end 2.125 1)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "f9521ef8-4061-4a30-8786-00b4def9c706")
+		)
+		(fp_circle
+			(center 2 2)
+			(end 2.125 2)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "af2e7794-b4b4-4679-aa87-569523160acf")
+		)
+		(fp_text user "APQ"
+			(at 5.75 1 0)
+			(layer "F.SilkS")
+			(uuid "a6fb6014-45a1-4164-93d9-307ca72fed93")
+			(effects
+				(font
+					(size 2.2 2.2)
+					(thickness 0.3)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
 		(layer "F.Cu")
 		(uuid "4bfd0f4a-d78c-459f-9ff2-564f23e666b5")
@@ -2711,38 +2874,66 @@
 		(layer "Edge.Cuts")
 		(uuid "39efb055-6e45-455e-8289-0b5d92df6c02")
 	)
-	(gr_text "M3x10\nISO 14580\n0.3 Nm"
-		(at 101.5 101.1 0)
+	(gr_text "UV-LED v0.1\nDesign: T. Guentzel\nDate: 2026-09"
+		(at 122.6 101.8 0)
+		(layer "F.SilkS")
+		(uuid "282b8cf5-b52a-4270-84f2-bba55ff62868")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "M3x10\nISO14580\n0.3 Nm"
+		(at 100.4 101.8 0)
 		(layer "F.SilkS")
 		(uuid "78b1db1d-e9a2-41e2-bb07-f0bf30398d58")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "M3x10\nISO 14580\n0.3 Nm"
-		(at 193.8 101.1 0)
-		(layer "F.SilkS")
-		(uuid "bcb8dbc3-cdf0-4bba-af19-aef5c37d9350")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "20V / 0.5A\nmax current: 1A"
-		(at 117.4 101.2 0)
+	(gr_text "max current: 1A"
+		(at 174.5 103 0)
 		(layer "F.SilkS")
 		(uuid "e4270460-edb2-4fb2-92f5-9f08e1bd675b")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "20V / 0.5A"
+		(at 175.5 98 0)
+		(layer "F.SilkS")
+		(uuid "a7156e89-06f9-4089-b2bf-4e374fe7dc96")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "M3x10\nISO14580\n0.3 Nm"
+		(at 193.6 101.8 0)
+		(layer "F.SilkS")
+		(uuid "bcb8dbc3-cdf0-4bba-af19-aef5c37d9350")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
