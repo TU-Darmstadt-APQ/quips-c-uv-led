@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.0"
+      "sch_revision": "1.1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -539,7 +539,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "../../freecad/uv-leds/mount-45deg/kicad-pcb/uv-led.step",
+      "step": "../../freecad/uv-led/mount-updated/kicad-pcb/uv-led.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
