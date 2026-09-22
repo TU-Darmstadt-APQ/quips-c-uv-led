@@ -27,9 +27,9 @@ jobs:
     strategy:
       matrix:
         project:
-          - name: 1-inch-Photodetector
-            schematic: 1inch-photodetector.kicad_sch
-            pcb: 1inch-photodetector.kicad_pcb
+          - name: UV LED
+            schematic: uv-led.kicad_sch
+            pcb: uv-led.kicad_pcb
             config: config.kibot.yaml
             variants: "[ 'default', ]"
     uses: ./.github/workflows/build-kicad.yml
