@@ -54,20 +54,13 @@ outputs:
 
     layers:
       - 'F.Cu'
-      - 'In1.Cu'
-      - 'In2.Cu'
-      - 'B.Cu'
       - 'F.Paste'
-      - 'B.Paste'
       - 'F.Silkscreen'
-      - 'B.Silkscreen'
       - 'F.Mask'
-      - 'B.Mask'
       - 'User.Comments'
       - 'User.Drawings'
       - 'Edge.Cuts'
       - 'F.Fab'
-      - 'B.Fab'
 
   - name: 'excellon_drill'
     comment: 'Create the Excellon drill files to go with the Gerber files'
