@@ -1,0 +1,41 @@
+name: "Build manufacturing files"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches:
+      - "**"
+    paths:
+      - '**.kicad_sch'
+      - '**.kicad_pcb'
+      - 'KiCAD/footprints.pretty/*'
+      - '.github/workflows/*.yml'
+      - 'KiCAD/config.kibot.yaml'
+      - 'KiCAD/bom.ini'
+    # Ignore the push event when creating tags
+    tags-ignore:
+      - 'v?[0-9]+.[0-9]+.[0-9]+'
+  release:
+    types:
+      - published
+
+jobs:
+  create_manufacturing_files:
+    permissions:
+      contents: write
+    strategy:
+      matrix:
+        project:
+          - name: 1-inch-Photodetector
+            schematic: 1inch-photodetector.kicad_sch
+            pcb: 1inch-photodetector.kicad_pcb
+            config: config.kibot.yaml
+            variants: "[ 'default', ]"
+    uses: ./.github/workflows/build-kicad.yml
+    with:
+      schematic: ${{ matrix.project.schematic }}
+      pcb: ${{ matrix.project.pcb }}
+      config: ${{ matrix.project.config }}
+      name: ${{ matrix.project.name }}
+      variants: ${{ matrix.project.variants }}
