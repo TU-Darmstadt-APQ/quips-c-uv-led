@@ -1,3 +1,4 @@
+[![Build manufacturing files](https://github.com/TU-Darmstadt-APQ/quips-c-uv-led/actions/workflows/ci.yml/badge.svg)](https://github.com/TU-Darmstadt-APQ/quips-c-uv-led/actions/workflows/ci.yml)
 # QUIPS-C UV-LEDs PCB and Mounting Apparatus
 UV-LEDs intended for QUIPS-C experiment, includes CAD-models of mount and PCB.\
 Adsorption of Rubidium atoms on the vacuum chamber surfaces can lead to stray electric fields, negatively impacting the Rydberg transition. Ionisation by UV light aims to suppress this effect.
