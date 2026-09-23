@@ -1,0 +1,41 @@
+name: "Build manufacturing files"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches:
+      - "**"
+    paths:
+      - 'kicad/uv-led.kicad_sch'
+      - 'kicad/uv-led.kicad_pcb'
+      - 'kicad/footprints_project_specific.pretty/*'
+      - '.github/workflows/*.yml'
+      - 'kicad/config.kibot.yaml'
+      - 'kicad/bom.ini'
+    # Ignore the push event when creating tags
+    tags-ignore:
+      - 'v?[0-9]+.[0-9]+.[0-9]+'
+  release:
+    types:
+      - published
+
+jobs:
+  create_manufacturing_files:
+    permissions:
+      contents: write
+    strategy:
+      matrix:
+        project:
+          - name: UV LED
+            schematic: ./kicad/uv-led.kicad_sch
+            pcb: ./kicad/uv-led.kicad_pcb
+            config: ./kicad/config.kibot.yaml
+            variants: "[ 'default', ]"
+    uses: ./.github/workflows/build-kicad.yml
+    with:
+      schematic: ${{ matrix.project.schematic }}
+      pcb: ${{ matrix.project.pcb }}
+      config: ${{ matrix.project.config }}
+      name: ${{ matrix.project.name }}
+      variants: ${{ matrix.project.variants }}
