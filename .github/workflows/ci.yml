@@ -7,12 +7,12 @@ on:
     branches:
       - "**"
     paths:
-      - '**.kicad_sch'
-      - '**.kicad_pcb'
-      - 'KiCAD/footprints.pretty/*'
+      - 'kicad/uv-led.kicad_sch'
+      - 'kicad/uv-led.kicad_pcb'
+      - 'kicad/footprints_project_specific.pretty/*'
       - '.github/workflows/*.yml'
-      - 'KiCAD/config.kibot.yaml'
-      - 'KiCAD/bom.ini'
+      - 'kicad/config.kibot.yaml'
+      - 'kicad/bom.ini'
     # Ignore the push event when creating tags
     tags-ignore:
       - 'v?[0-9]+.[0-9]+.[0-9]+'
@@ -28,9 +28,9 @@ jobs:
       matrix:
         project:
           - name: UV LED
-            schematic: uv-led.kicad_sch
-            pcb: uv-led.kicad_pcb
-            config: config.kibot.yaml
+            schematic: ./kicad/uv-led.kicad_sch
+            pcb: ./kicad/uv-led.kicad_pcb
+            config: ./kicad/config.kibot.yaml
             variants: "[ 'default', ]"
     uses: ./.github/workflows/build-kicad.yml
     with:
