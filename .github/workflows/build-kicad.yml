@@ -55,7 +55,7 @@ jobs:
       - name: Extract PCB revision label
         id: extract_pcb_revision_label
         run: |
-          echo "value=$(perl -0777 -ne "print /\(gr_text \".+\\\nVersion: (.+?)\\\n/g" ${{ inputs.pcb }})" >>${GITHUB_OUTPUT}
+          echo "value=$(perl -0777 -ne "print /\(gr_text \".+\\\nVersion: (.+?)(?:\\\n|\")/g" ${{ inputs.pcb }})" >>${GITHUB_OUTPUT}
         shell: bash
 
       - name: Test if the revision number was extracted
