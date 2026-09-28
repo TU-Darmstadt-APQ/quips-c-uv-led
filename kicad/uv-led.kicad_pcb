@@ -134,7 +134,7 @@
 	(footprint "Custom_footprints_project:APQ-Logo_small"
 		(layer "F.Cu")
 		(uuid "270fadb4-a2f8-40e8-8d3d-3e3a6fd9a6da")
-		(at 113.5 99)
+		(at 114 99)
 		(property "Reference" "LOGO1"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -222,19 +222,13 @@
 		(path "/cf9aaeb4-9c5f-4aa2-8dfb-b28eda3c5383")
 		(sheetname "/")
 		(sheetfile "uv-led.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0.125 0)
+			(end 0.2 0)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -243,9 +237,9 @@
 		)
 		(fp_circle
 			(center 0 1)
-			(end 0.125 1)
+			(end 0.2 1)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -254,9 +248,9 @@
 		)
 		(fp_circle
 			(center 0 2)
-			(end 0.125 2)
+			(end 0.2 2)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -265,9 +259,9 @@
 		)
 		(fp_circle
 			(center 1 0)
-			(end 1.125 0)
+			(end 1.2 0)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -276,9 +270,9 @@
 		)
 		(fp_circle
 			(center 1 1)
-			(end 1.125 1)
+			(end 1.2 1)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -287,9 +281,9 @@
 		)
 		(fp_circle
 			(center 1 2)
-			(end 1.125 2)
+			(end 1.2 2)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -298,9 +292,9 @@
 		)
 		(fp_circle
 			(center 2 0)
-			(end 2.125 0)
+			(end 2.2 0)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -309,9 +303,9 @@
 		)
 		(fp_circle
 			(center 2 1)
-			(end 2.125 1)
+			(end 2.2 1)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -320,14 +314,25 @@
 		)
 		(fp_circle
 			(center 2 2)
-			(end 2.125 2)
+			(end 2.2 2)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
 			(uuid "af2e7794-b4b4-4679-aa87-569523160acf")
+		)
+		(fp_rect
+			(start -0.65 -0.6)
+			(end 9.03 2.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3530096f-408c-47b4-aa7a-deeb9a7ddc3a")
 		)
 		(fp_text user "APQ"
 			(at 5.75 1 0)
