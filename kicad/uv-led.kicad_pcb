@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.565)
+		(thickness 1.6)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -44,12 +44,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Blue")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -59,7 +61,7 @@
 			(layer "dielectric 1"
 				(type "core")
 				(color "Aluminum")
-				(thickness 1.51)
+				(thickness 1.555)
 				(material "Al")
 				(epsilon_r 8.7)
 				(loss_tangent 0.001)
@@ -70,7 +72,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(thickness 0.01)
+				(thickness 0)
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
@@ -94,6 +96,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -131,11 +134,11 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "footprints_project_specific:APQ-Logo_small"
+	(footprint "Custom_footprints_project:APQ-Logo_small"
 		(layer "F.Cu")
 		(uuid "270fadb4-a2f8-40e8-8d3d-3e3a6fd9a6da")
-		(at 113.5 99)
-		(property "Reference" "REF**"
+		(at 114 99)
+		(property "Reference" "LOGO1"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -147,8 +150,8 @@
 				)
 			)
 		)
-		(property "Value" "APQ-Logo_small"
-			(at 4.5 4 0)
+		(property "Value" "Logo_APQ"
+			(at 0 4.08 0)
 			(layer "F.Fab")
 			(uuid "a0d21f66-9481-4215-92ab-6c24b9c13fae")
 			(effects
@@ -180,13 +183,55 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(property "MFN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "899bbb3f-df66-4627-b48a-1bb49500b518")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd73c2e6-480a-40cd-bb09-bc5b95af2a84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b28e232-6bf9-4bf0-b5fa-747151c85ada")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cf9aaeb4-9c5f-4aa2-8dfb-b28eda3c5383")
+		(sheetname "/")
+		(sheetfile "uv-led.kicad_sch")
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0.125 0)
+			(end 0.2 0)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -195,9 +240,9 @@
 		)
 		(fp_circle
 			(center 0 1)
-			(end 0.125 1)
+			(end 0.2 1)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -206,9 +251,9 @@
 		)
 		(fp_circle
 			(center 0 2)
-			(end 0.125 2)
+			(end 0.2 2)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -217,9 +262,9 @@
 		)
 		(fp_circle
 			(center 1 0)
-			(end 1.125 0)
+			(end 1.2 0)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -228,9 +273,9 @@
 		)
 		(fp_circle
 			(center 1 1)
-			(end 1.125 1)
+			(end 1.2 1)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -239,9 +284,9 @@
 		)
 		(fp_circle
 			(center 1 2)
-			(end 1.125 2)
+			(end 1.2 2)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -250,9 +295,9 @@
 		)
 		(fp_circle
 			(center 2 0)
-			(end 2.125 0)
+			(end 2.2 0)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -261,9 +306,9 @@
 		)
 		(fp_circle
 			(center 2 1)
-			(end 2.125 1)
+			(end 2.2 1)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
@@ -272,14 +317,25 @@
 		)
 		(fp_circle
 			(center 2 2)
-			(end 2.125 2)
+			(end 2.2 2)
 			(stroke
-				(width 0.25)
+				(width 0.4)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
 			(uuid "af2e7794-b4b4-4679-aa87-569523160acf")
+		)
+		(fp_rect
+			(start -0.65 -0.6)
+			(end 9.03 2.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3530096f-408c-47b4-aa7a-deeb9a7ddc3a")
 		)
 		(fp_text user "APQ"
 			(at 5.75 1 0)
@@ -467,7 +523,7 @@
 				)
 			)
 		)
-		(property "Description" "Luminus Devices SST-08H-UV"
+		(property "Description" "UV LED 365nm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -480,7 +536,7 @@
 				)
 			)
 		)
-		(property "MN" "SST-08-UV-A40H-F365-00 "
+		(property "MN" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -493,7 +549,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Luminus Devices"
+		(property "Mfr" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -525,6 +581,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d32956ae-4f33-47f6-a3cb-6c9bbceae4ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFN" "Luminus Devices"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a623cd09-8143-4012-b332-727ce755cf42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PN" "SST-08-UV-A40H-F365-00"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d044261-358d-4d99-b51a-7598d4afaec7")
 			(effects
 				(font
 					(size 1 1)
@@ -834,7 +916,7 @@
 				)
 			)
 		)
-		(property "Description" "Luminus Devices SST-08H-UV"
+		(property "Description" "UV LED 365nm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -847,7 +929,7 @@
 				)
 			)
 		)
-		(property "MN" "SST-08-UV-A40H-F365-00 "
+		(property "MN" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -860,7 +942,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Luminus Devices"
+		(property "Mfr" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -892,6 +974,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "319eb5c8-b0b1-4aab-b378-4b69db49457c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFN" "Luminus Devices"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b617431c-663e-4e61-b110-6b2e7edfbe94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PN" "SST-08-UV-A40H-F365-00"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fc67ebb-62b6-4740-a732-20f0c31626f0")
 			(effects
 				(font
 					(size 1 1)
@@ -1201,7 +1309,7 @@
 				)
 			)
 		)
-		(property "Description" "Luminus Devices SST-08H-UV"
+		(property "Description" "UV LED 365nm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1214,7 +1322,7 @@
 				)
 			)
 		)
-		(property "MN" "SST-08-UV-A40H-F365-00 "
+		(property "MN" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1227,7 +1335,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Luminus Devices"
+		(property "Mfr" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1240,7 +1348,7 @@
 				)
 			)
 		)
-		(property "Temperature" "Top = 0 °C to 125 °C"
+		(property "Temperature" "Top = 0 °C to 100 °C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1259,6 +1367,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "83488139-1045-41f9-8353-6ea2836e1dad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFN" "Luminus Devices"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfbd39bb-1672-4ec8-aaf4-4a16b3bbce68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PN" "SST-08-UV-A40H-F365-00"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2de99496-7d1d-4c2c-96ab-193abfd5710f")
 			(effects
 				(font
 					(size 1 1)
@@ -1568,7 +1702,7 @@
 				)
 			)
 		)
-		(property "Description" "Luminus Devices SST-08H-UV"
+		(property "Description" "UV LED 365nm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1581,7 +1715,7 @@
 				)
 			)
 		)
-		(property "MN" "SST-08-UV-A40H-F365-00 "
+		(property "MN" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1594,7 +1728,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Luminus Devices"
+		(property "Mfr" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1626,6 +1760,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "382c2748-1e53-49b1-99b6-418b52ac1c9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFN" "Luminus Devices"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42be7744-20ab-40e9-9594-46cce7b5ef49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PN" "SST-08-UV-A40H-F365-00"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a06fa6d9-2568-4f9e-b3b6-3cf7ef53065e")
 			(effects
 				(font
 					(size 1 1)
@@ -1935,7 +2095,7 @@
 				)
 			)
 		)
-		(property "Description" "Luminus Devices SST-08H-UV"
+		(property "Description" "UV LED 365nm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1948,7 +2108,7 @@
 				)
 			)
 		)
-		(property "MN" "SST-08-UV-A40H-F365-00 "
+		(property "MN" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1961,7 +2121,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Luminus Devices"
+		(property "Mfr" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1993,6 +2153,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30cf3255-b091-4de3-885e-752bbb4fac8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFN" "Luminus Devices"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f46cd4e-bdd3-457b-a87a-932323a919b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PN" "SST-08-UV-A40H-F365-00"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f44908d8-5b40-4c7b-beb2-521f809bf1de")
 			(effects
 				(font
 					(size 1 1)
@@ -2630,6 +2816,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Datasheet" ""
@@ -2669,7 +2856,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MN" "PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "MN" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2683,12 +2870,68 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr" "JST Commercial"
+		(property "Mfr" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5c104448-eab7-43a2-867f-46e85dc40235")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MFN" "JST Commercial"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5d95694c-83d4-42c9-ad13-e977584ca9d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PN" "PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b6207907-2241-457f-a5c6-e2af2696e2bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "RoHS" "By exemption"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "98744f3d-1b3d-4cef-9961-a6c2bd5d1e8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Temperature" "Top = -25 °C to 85 °C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aa4912ff-251d-407f-85d3-3c3caa88a2a9")
 			(effects
 				(font
 					(size 1 1)
@@ -3106,6 +3349,675 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "Manufacturing Instruction:\n- Material Aluminum\n- Finished thickness: 1.6 mm ± 0.16 mm\n- PCBs must be RoHS compliant\n- Do not edit artwork, e.g. to add logos\n   or order numbers\n- Clean to meet IPC J-STD-001E, Class 2\n   after assembly"
+		(at 20 150 0)
+		(layer "Cmts.User")
+		(uuid "1c3eccba-9d0c-454e-9b6e-cb37823f9cd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(table
+		(column_count 7)
+		(uuid "9dc258eb-e6ef-46be-976b-e764e3cc6ae8")
+		(layer "Cmts.User")
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+		)
+		(column_widths 15.993214 25.77893 17.493216 17.493215 17.493216 13.450358
+			17.653226
+		)
+		(row_heights 4.305 4.197388 4.197388 4.197388 4.197388 3.911674)
+		(cells
+			(table_cell "Layer Name"
+				(start 20 155)
+				(end 35.993214 159.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "eee41f5b-23f4-49e4-b821-5a2a5e058650")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Type"
+				(start 35.993214 155)
+				(end 61.772144 159.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "bafb5ba0-5718-4098-a8e1-21b622f13d6f")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Material"
+				(start 61.772144 155)
+				(end 79.26536 159.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "235136df-e1d1-42ab-8cdd-c91c1d8c06bf")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Thickness"
+				(start 79.26536 155)
+				(end 96.758575 159.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "80925070-3dda-43fa-a86d-888716e3622c")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Color"
+				(start 96.758575 155)
+				(end 114.251791 159.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "fb995b5d-d60f-40f7-8320-9f10deb19c0d")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Epsilon R"
+				(start 114.251791 155)
+				(end 127.702149 159.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "519c22f9-b2ba-4cc3-a33e-6dda8aa95654")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Loss Tangent"
+				(start 127.702149 155)
+				(end 145.355375 159.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "9712430a-0fe4-4947-ba7d-bb2d633de80e")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "F.Silkscreen"
+				(start 20 159.305)
+				(end 35.993214 163.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "55bf526f-c97d-4d0e-95ec-1a2bdc5d3696")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Top silk screen"
+				(start 35.993214 159.305)
+				(end 61.772144 163.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "a840f63e-c070-4ab6-90eb-c2139704fc5a")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Not specified"
+				(start 61.772144 159.305)
+				(end 79.26536 163.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "4a53e6b5-3225-4da4-a736-98cd5bd13245")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Not specified"
+				(start 79.26536 159.305)
+				(end 96.758575 163.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "71cb4ab7-8587-4372-9639-5b532364c2de")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "White"
+				(start 96.758575 159.305)
+				(end 114.251791 163.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "5926b54d-0e2d-414b-8616-1904832a28f3")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "1"
+				(start 114.251791 159.305)
+				(end 127.702149 163.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "e932ccdf-9ba1-44ad-9a30-6896c6a20781")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "0"
+				(start 127.702149 159.305)
+				(end 145.355375 163.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "b3261981-c962-4cac-a2da-5d53f7818935")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "F.Paste"
+				(start 20 163.502388)
+				(end 35.993214 167.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "e4a3b953-129a-4558-b5f4-a90bf824f4de")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Top solder paste"
+				(start 35.993214 163.502388)
+				(end 61.772144 167.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "87df47ee-fe8e-4311-b7db-7b5a392a6a79")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell ""
+				(start 61.772144 163.502388)
+				(end 79.26536 167.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "a5381b16-58b3-4783-8c5f-72b9326bec05")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Not specified"
+				(start 79.26536 163.502388)
+				(end 96.758575 167.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "80780131-3d05-4262-8036-2f5bad5b7a1a")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell ""
+				(start 96.758575 163.502388)
+				(end 114.251791 167.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "01f8feca-455d-4b43-8925-c5d308d0926c")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "1"
+				(start 114.251791 163.502388)
+				(end 127.702149 167.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "e57cf9a0-d147-45dd-9c96-52e32e92bf50")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "0"
+				(start 127.702149 163.502388)
+				(end 145.355375 167.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "d7036e3d-a41d-4c4f-828d-98162f8525b8")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "F.Mask"
+				(start 20 167.699776)
+				(end 35.993214 171.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "57400f57-9f35-4eec-bb06-18f3ac4c8108")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Top solder mask"
+				(start 35.993214 167.699776)
+				(end 61.772144 171.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "650a55a7-191c-4b61-b321-21047d31244c")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Not specified"
+				(start 61.772144 167.699776)
+				(end 79.26536 171.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "bc35f57c-0030-4954-ae55-e8fde8f0b18b")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "0,01 mm"
+				(start 79.26536 167.699776)
+				(end 96.758575 171.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "021d3b5d-388e-4356-9901-ee7a9cd7c5a4")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "Blue"
+				(start 96.758575 167.699776)
+				(end 114.251791 171.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "b234ff27-1ade-49a7-97d5-484da6c0babe")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "3,3"
+				(start 114.251791 167.699776)
+				(end 127.702149 171.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "0e379838-ac3a-43bb-a946-6f9e7ab6813d")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "0"
+				(start 127.702149 167.699776)
+				(end 145.355375 171.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "c3e26908-5233-492c-9d83-218f3c15c7c4")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "F.Cu"
+				(start 20 171.897164)
+				(end 35.993214 176.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "7e87c568-8890-4c57-812a-7fcd9495d75c")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Copper"
+				(start 35.993214 171.897164)
+				(end 61.772144 176.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "44deecbb-e2f2-4177-a16f-ee189dcd9701")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell ""
+				(start 61.772144 171.897164)
+				(end 79.26536 176.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "48816f91-32f9-4c3c-95cc-89f5e43a3c85")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "0,035 mm"
+				(start 79.26536 171.897164)
+				(end 96.758575 176.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "b76635b7-158b-47a9-92b8-bef0e011adaf")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell ""
+				(start 96.758575 171.897164)
+				(end 114.251791 176.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "5c0a757e-9b9a-470b-a7e6-3d304add38ab")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "1"
+				(start 114.251791 171.897164)
+				(end 127.702149 176.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "a04b35c1-2e48-4fa8-9fba-9c0aecaa3e73")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "0"
+				(start 127.702149 171.897164)
+				(end 145.355375 176.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "95f9b903-e3aa-4708-8b37-32edd3e104f2")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "Dielectric 1"
+				(start 20 176.094552)
+				(end 35.993214 180.006226)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "2b3fbd75-5f2d-4ced-b64f-0f03f6ac6646")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Core"
+				(start 35.993214 176.094552)
+				(end 61.772144 180.006226)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "c37ab273-8bbb-466c-8e49-d3d8564a931d")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Al"
+				(start 61.772144 176.094552)
+				(end 79.26536 180.006226)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "fbf72554-d20d-40fe-ba12-4b04cc365b4a")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "1,555 mm"
+				(start 79.26536 176.094552)
+				(end 96.758575 180.006226)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "5593c02d-58a5-4d4e-8477-b3f2e36879a2")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "Aluminum"
+				(start 96.758575 176.094552)
+				(end 114.251791 180.006226)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "93eed69d-b127-472d-81bf-293b91fad847")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "8,7"
+				(start 114.251791 176.094552)
+				(end 127.702149 180.006226)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "fcf75f59-cfbe-4904-bb01-e2fdbc86efbd")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "0,001"
+				(start 127.702149 176.094552)
+				(end 145.355375 180.006226)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "a8e602ec-fd8f-4649-86b3-518b72331d44")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
 		)
 	)
 	(dimension

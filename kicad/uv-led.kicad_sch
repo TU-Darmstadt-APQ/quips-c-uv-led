@@ -2073,30 +2073,8 @@
 				)
 			)
 		)
-		(property "Description" "Luminus Devices SST-08H-UV"
+		(property "Description" "UV LED 365nm"
 			(at 114.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MN" "SST-08-UV-A40H-F365-00 "
-			(at 114.3 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr" "Luminus Devices"
-			(at 114.3 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2118,6 +2096,28 @@
 			)
 		)
 		(property "RoHS" "Yes"
+			(at 114.3 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "Luminus Devices"
+			(at 114.3 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SST-08-UV-A40H-F365-00"
 			(at 114.3 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -2202,30 +2202,8 @@
 				)
 			)
 		)
-		(property "Description" "Luminus Devices SST-08H-UV"
+		(property "Description" "UV LED 365nm"
 			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MN" "SST-08-UV-A40H-F365-00 "
-			(at 114.3 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr" "Luminus Devices"
-			(at 114.3 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,6 +2225,28 @@
 			)
 		)
 		(property "RoHS" "Yes"
+			(at 114.3 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "Luminus Devices"
+			(at 114.3 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SST-08-UV-A40H-F365-00"
 			(at 114.3 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -2282,7 +2282,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e2c13e3-b17e-4343-b52d-6fbd64422300")
@@ -2308,7 +2308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Symbol:OSHW-Logo_7.5x8mm_SilkScreen"
+		(property "Footprint" ""
 			(at 278.13 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -2439,30 +2439,8 @@
 				)
 			)
 		)
-		(property "Description" "Luminus Devices SST-08H-UV"
+		(property "Description" "UV LED 365nm"
 			(at 114.3 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MN" "SST-08-UV-A40H-F365-00 "
-			(at 114.3 110.49 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr" "Luminus Devices"
-			(at 114.3 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2484,6 +2462,28 @@
 			)
 		)
 		(property "RoHS" "Yes"
+			(at 114.3 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "Luminus Devices"
+			(at 114.3 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SST-08-UV-A40H-F365-00"
 			(at 114.3 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -2735,7 +2735,7 @@
 				)
 			)
 		)
-		(property "MN" "PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "MFN" "JST Commercial"
 			(at 167.64 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2746,7 +2746,29 @@
 				)
 			)
 		)
-		(property "Mfr" "JST Commercial"
+		(property "PN" "PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RoHS" "By exemption"
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" "Top = -25 °C to 85 °C"
 			(at 167.64 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2985,7 +3007,7 @@
 				)
 			)
 		)
-		(property "Description" "Luminus Devices SST-08H-UV"
+		(property "Description" "UV LED 365nm"
 			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2996,29 +3018,7 @@
 				)
 			)
 		)
-		(property "MN" "SST-08-UV-A40H-F365-00 "
-			(at 114.3 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr" "Luminus Devices"
-			(at 114.3 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature" "Top = 0 °C to 125 °C"
+		(property "Temperature" "Top = 0 °C to 100 °C"
 			(at 114.3 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -3030,6 +3030,28 @@
 			)
 		)
 		(property "RoHS" "Yes"
+			(at 114.3 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "Luminus Devices"
+			(at 114.3 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SST-08-UV-A40H-F365-00"
 			(at 114.3 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -3192,30 +3214,8 @@
 				)
 			)
 		)
-		(property "Description" "Luminus Devices SST-08H-UV"
+		(property "Description" "UV LED 365nm"
 			(at 114.3 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MN" "SST-08-UV-A40H-F365-00 "
-			(at 114.3 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr" "Luminus Devices"
-			(at 114.3 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3237,6 +3237,28 @@
 			)
 		)
 		(property "RoHS" "Yes"
+			(at 114.3 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "Luminus Devices"
+			(at 114.3 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SST-08-UV-A40H-F365-00"
 			(at 114.3 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -3428,7 +3450,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3738,7 +3760,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
