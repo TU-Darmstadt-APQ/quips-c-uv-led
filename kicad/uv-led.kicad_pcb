@@ -94,7 +94,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -132,11 +131,11 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "footprints_project_specific:APQ-Logo_small"
+	(footprint "Custom_footprints_project:APQ-Logo_small"
 		(layer "F.Cu")
 		(uuid "270fadb4-a2f8-40e8-8d3d-3e3a6fd9a6da")
 		(at 113.5 99)
-		(property "Reference" "REF**"
+		(property "Reference" "LOGO1"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -148,8 +147,8 @@
 				)
 			)
 		)
-		(property "Value" "APQ-Logo_small"
-			(at 4.5 4 0)
+		(property "Value" "Logo_APQ"
+			(at 0 4.08 0)
 			(layer "F.Fab")
 			(uuid "a0d21f66-9481-4215-92ab-6c24b9c13fae")
 			(effects
@@ -181,7 +180,55 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(property "MFN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "899bbb3f-df66-4627-b48a-1bb49500b518")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd73c2e6-480a-40cd-bb09-bc5b95af2a84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "RoHS" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b28e232-6bf9-4bf0-b5fa-747151c85ada")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cf9aaeb4-9c5f-4aa2-8dfb-b28eda3c5383")
+		(sheetname "/")
+		(sheetfile "uv-led.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -2761,6 +2808,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Datasheet" ""
