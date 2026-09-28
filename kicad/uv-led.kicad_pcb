@@ -10,7 +10,7 @@
 	(title_block
 		(title "QUIPS-C UV-LED")
 		(date "2026-09-02")
-		(rev "1.1.0")
+		(rev "1.1.1")
 		(company "TU Darmstadt")
 		(comment 1 "Copyright (©) 2026, Tom Güntzel <tom.guentzel@physik.tu-darmstadt.de>")
 		(comment 2 "Licensed under CERN OHL-W v2.0")
@@ -96,7 +96,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -225,6 +224,12 @@
 		(path "/cf9aaeb4-9c5f-4aa2-8dfb-b28eda3c5383")
 		(sheetname "/")
 		(sheetfile "uv-led.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -401,18 +406,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0bcf8c83-77d4-418b-9af6-5d2adf104c89")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/691b09a5-953e-477d-88f6-68d248a32261")
 		(sheetname "/")
@@ -536,33 +529,7 @@
 				)
 			)
 		)
-		(property "MN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c12807b-df7f-4e3d-a53a-2d551c987f53")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfr" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e023b4b2-3655-46d4-a4fb-9f8194f0b79e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Temperature" "Top = 0 °C to 100 °C"
+		(property "Temperature" "Top = -40 °C to 95 °C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -929,33 +896,7 @@
 				)
 			)
 		)
-		(property "MN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da09d078-d336-49e8-b5a5-7ae71c383683")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfr" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20371f39-468c-487d-9bd6-40ce00671fef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Temperature" "Top = 0 °C to 100 °C"
+		(property "Temperature" "Top = -40 °C to 95 °C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1322,33 +1263,7 @@
 				)
 			)
 		)
-		(property "MN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a25ecfa1-1d9e-4d29-89c1-445b783cd7e4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfr" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "08c0cf4e-9753-4ae3-bb8e-943bd466b04e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Temperature" "Top = 0 °C to 100 °C"
+		(property "Temperature" "Top = -40 °C to 95 °C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1715,33 +1630,7 @@
 				)
 			)
 		)
-		(property "MN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "71c1e900-d8de-49a3-a320-a708fdd58e4a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfr" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c1a0479-080f-4899-b508-41c8e3f1873b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Temperature" "Top = 0 °C to 100 °C"
+		(property "Temperature" "Top = -40 °C to 95 °C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2108,33 +1997,7 @@
 				)
 			)
 		)
-		(property "MN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "88684239-12ce-407a-8207-68ca54f974cd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfr" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "328a57d6-0cef-41ff-ba92-58da29fbc9ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Temperature" "Top = 0 °C to 100 °C"
+		(property "Temperature" "Top = -40 °C to 95 °C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2498,18 +2361,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "893c646c-5580-491e-b3ed-4740fa541865")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/0adf3934-a914-448b-b0fd-d6f064267371")
 		(sheetname "/")
@@ -2626,18 +2477,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c44e43b4-21e6-4d80-af43-d3c4a9da592f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -2843,47 +2682,6 @@
 				(justify mirror)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "1503358c-ccfd-4e8b-835b-d7c21b7bc437")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MN" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d6699434-85ab-4f99-9dee-44628b7bb947")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mfr" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5c104448-eab7-43a2-867f-46e85dc40235")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MFN" "JST Commercial"
 			(at 0 0 0)
 			(unlocked yes)
@@ -2898,7 +2696,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PN" "PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "PN" "B2B-PH-K(LF)(SN)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2912,7 +2710,7 @@
 				(justify mirror)
 			)
 		)
-		(property "RoHS" "By exemption"
+		(property "RoHS" "Yes"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2932,6 +2730,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "aa4912ff-251d-407f-85d3-3c3caa88a2a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternative" "JST B2B-PH-KL(LF)(SN)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a532f2aa-c8d3-4d4f-8624-0b809b95ce81")
 			(effects
 				(font
 					(size 1 1)
@@ -3275,7 +3087,7 @@
 		(layer "Edge.Cuts")
 		(uuid "39efb055-6e45-455e-8289-0b5d92df6c02")
 	)
-	(gr_text "UV-LED\nDesign: T. Guentzel\nDate: 2026-09\nVersion: 1.1.0"
+	(gr_text "UV-LED\nDesign: T. Guentzel\nDate: 2026-09\nVersion: 1.1.1"
 		(at 123.25 102.42 0)
 		(layer "F.SilkS")
 		(uuid "282b8cf5-b52a-4270-84f2-bba55ff62868")
