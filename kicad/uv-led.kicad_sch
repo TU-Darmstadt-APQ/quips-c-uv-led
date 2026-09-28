@@ -7,7 +7,7 @@
 	(title_block
 		(title "QUIPS-C UV-LED")
 		(date "2026-09-02")
-		(rev "1.1.0")
+		(rev "1.1.1")
 		(company "TU Darmstadt")
 		(comment 1 "Copyright (©) 2026, Tom Güntzel <tom.guentzel@physik.tu-darmstadt.de>")
 		(comment 2 "Licensed under CERN OHL-W v2.0")
@@ -2084,7 +2084,7 @@
 				)
 			)
 		)
-		(property "Temperature" "Top = 0 °C to 100 °C"
+		(property "Temperature" "Top = -40 °C to 95 °C"
 			(at 114.3 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -2213,7 +2213,7 @@
 				)
 			)
 		)
-		(property "Temperature" "Top = 0 °C to 100 °C"
+		(property "Temperature" "Top = -40 °C to 95 °C"
 			(at 114.3 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -2450,7 +2450,7 @@
 				)
 			)
 		)
-		(property "Temperature" "Top = 0 °C to 100 °C"
+		(property "Temperature" "Top = -40 °C to 95 °C"
 			(at 114.3 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -2746,7 +2746,7 @@
 				)
 			)
 		)
-		(property "PN" "PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "PN" "B2B-PH-K(LF)(SN)"
 			(at 167.64 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2757,7 +2757,7 @@
 				)
 			)
 		)
-		(property "RoHS" "By exemption"
+		(property "RoHS" "Yes"
 			(at 167.64 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2769,6 +2769,17 @@
 			)
 		)
 		(property "Temperature" "Top = -25 °C to 85 °C"
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" "JST B2B-PH-KL(LF)(SN)"
 			(at 167.64 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3018,7 +3029,7 @@
 				)
 			)
 		)
-		(property "Temperature" "Top = 0 °C to 100 °C"
+		(property "Temperature" "Top = -40 °C to 95 °C"
 			(at 114.3 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -3225,7 +3236,7 @@
 				)
 			)
 		)
-		(property "Temperature" "Top = 0 °C to 100 °C"
+		(property "Temperature" "Top = -40 °C to 95 °C"
 			(at 114.3 119.38 90)
 			(hide yes)
 			(show_name no)
