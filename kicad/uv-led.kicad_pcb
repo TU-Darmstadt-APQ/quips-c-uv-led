@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.565)
+		(thickness 1.6)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -59,7 +59,7 @@
 			(layer "dielectric 1"
 				(type "core")
 				(color "Aluminum")
-				(thickness 1.51)
+				(thickness 1.545)
 				(material "Al")
 				(epsilon_r 8.7)
 				(loss_tangent 0.001)
@@ -94,6 +94,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -3292,6 +3293,675 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "Manufacturing Instruction:\n- Material Aluminum\n- Finished thickness: 1.57 mm ± 0.13 mm\n- PCBs must be RoHS compliant\n- Do not edit artwork, e.g. to add logos\n   or order numbers\n- Clean to meet IPC J-STD-001E, Class 2\n   after assembly"
+		(at 20 160 0)
+		(layer "Cmts.User")
+		(uuid "1c3eccba-9d0c-454e-9b6e-cb37823f9cd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(table
+		(column_count 7)
+		(uuid "65396c85-1e07-4ef2-ab99-dc82c41e1cc9")
+		(layer "Cmts.User")
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+		)
+		(column_widths 15.993214 25.77893 17.493216 17.493215 17.493216 13.450358
+			17.653226
+		)
+		(row_heights 4.305 4.197388 4.197388 4.197388 4.197388 3.98285)
+		(cells
+			(table_cell "Layer Name"
+				(start 20 165)
+				(end 35.993214 169.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "f4eabb47-d5f6-4af6-aefc-a839d0aa88b9")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Type"
+				(start 35.993214 165)
+				(end 61.772144 169.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "d6cd5bc5-2f6b-4657-90f2-34eb66e40756")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Material"
+				(start 61.772144 165)
+				(end 79.26536 169.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "5bce247c-b062-4998-927c-63a466fe3ba7")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Thickness"
+				(start 79.26536 165)
+				(end 96.758575 169.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "a7597a84-3930-45da-bb8c-6a836bf893af")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Color"
+				(start 96.758575 165)
+				(end 114.251791 169.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "8d9d4bd9-7a60-412a-931b-7713b05aa257")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Epsilon R"
+				(start 114.251791 165)
+				(end 127.702149 169.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "c89b05f9-d964-4c00-b6a6-de7ac6a89b5e")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Loss Tangent"
+				(start 127.702149 165)
+				(end 145.355375 169.305)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "c4c841bf-9ab1-4302-ae8d-ad33f28d6cde")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.3)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "F.Silkscreen"
+				(start 20 169.305)
+				(end 35.993214 173.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "24fbbdea-d778-483b-b742-dedc47543b42")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Top silk screen"
+				(start 35.993214 169.305)
+				(end 61.772144 173.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "3214ee14-b8ba-49c0-b57a-bc4302b21f75")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Not specified"
+				(start 61.772144 169.305)
+				(end 79.26536 173.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "e1893973-78f8-4391-a8d3-96a9b8b81ba1")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Not specified"
+				(start 79.26536 169.305)
+				(end 96.758575 173.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "52cafbcd-877d-4205-a87b-9b631829c3ad")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "Not specified"
+				(start 96.758575 169.305)
+				(end 114.251791 173.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "84f0df1f-1b44-4272-90a9-10c5f5766ee5")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "1"
+				(start 114.251791 169.305)
+				(end 127.702149 173.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "c988dc80-2136-4ee6-8711-2f8c490558a4")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "0"
+				(start 127.702149 169.305)
+				(end 145.355375 173.502388)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "83955625-9551-4807-b002-66346e298b34")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "F.Paste"
+				(start 20 173.502388)
+				(end 35.993214 177.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "30079722-7462-4030-9365-cd2338f9ad3f")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Top solder paste"
+				(start 35.993214 173.502388)
+				(end 61.772144 177.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "b6a1b389-376b-490e-a695-e63cf80575bf")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell ""
+				(start 61.772144 173.502388)
+				(end 79.26536 177.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "82ed296f-6523-4527-8415-eae4e5e8ce8a")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Not specified"
+				(start 79.26536 173.502388)
+				(end 96.758575 177.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "239a39cb-27fe-4340-b236-63783589313e")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell ""
+				(start 96.758575 173.502388)
+				(end 114.251791 177.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "7271d445-ba83-4678-a887-8eebdcc57809")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "1"
+				(start 114.251791 173.502388)
+				(end 127.702149 177.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "00965f95-60f4-4e42-bdf3-48a1d9cadb6f")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "0"
+				(start 127.702149 173.502388)
+				(end 145.355375 177.699776)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "675ed6df-3a25-4ee9-b86d-da93dd19a375")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "F.Mask"
+				(start 20 177.699776)
+				(end 35.993214 181.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "90d50a19-edb2-4cc0-8ac7-878a66a07d21")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Top solder mask"
+				(start 35.993214 177.699776)
+				(end 61.772144 181.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "895e0d54-e93d-4901-88ec-0279ef91eac1")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Not specified"
+				(start 61.772144 177.699776)
+				(end 79.26536 181.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "dafa0b3d-7ca5-43fd-ae3d-e68bd19daa3d")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "0,01 mm"
+				(start 79.26536 177.699776)
+				(end 96.758575 181.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "c66d6834-e79d-4197-af46-2a306abc23bb")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "Not specified"
+				(start 96.758575 177.699776)
+				(end 114.251791 181.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "cb6b56e3-d7df-40cb-8e49-4440e6d8c8b7")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "3,3"
+				(start 114.251791 177.699776)
+				(end 127.702149 181.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "09dcc0e7-df58-4e4e-b7ee-bd62881ab7a2")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "0"
+				(start 127.702149 177.699776)
+				(end 145.355375 181.897164)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "ea0c7cb9-8b00-46a9-862d-fc4fffa1f27c")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "F.Cu"
+				(start 20 181.897164)
+				(end 35.993214 186.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "be1db287-6340-432e-be2b-244941117d4b")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Copper"
+				(start 35.993214 181.897164)
+				(end 61.772144 186.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "02245b89-f602-4276-8c70-2a194c751d5b")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell ""
+				(start 61.772144 181.897164)
+				(end 79.26536 186.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "e4353488-7192-4db7-ba56-2082aa528cbe")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "0,035 mm"
+				(start 79.26536 181.897164)
+				(end 96.758575 186.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "abc57330-8e2d-4569-be17-e0976af38a92")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell ""
+				(start 96.758575 181.897164)
+				(end 114.251791 186.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "bea6c611-b5eb-45e2-9e86-363055ad5a10")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "1"
+				(start 114.251791 181.897164)
+				(end 127.702149 186.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "c11c1fa5-9357-477a-9395-18dc03e641b2")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "0"
+				(start 127.702149 181.897164)
+				(end 145.355375 186.094552)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "b91fc20c-d943-485d-8068-60ace22b0cf4")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "Dielectric 1"
+				(start 20 186.094552)
+				(end 35.993214 190.077402)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "2be75d83-f99a-4153-8992-24db13614b2e")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Core"
+				(start 35.993214 186.094552)
+				(end 61.772144 190.077402)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "743f919e-b9b2-4821-97d4-a032b9efc9d8")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Al"
+				(start 61.772144 186.094552)
+				(end 79.26536 190.077402)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "f0f8c223-f590-41a6-9565-3d8bdcb0c835")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "1,545 mm"
+				(start 79.26536 186.094552)
+				(end 96.758575 190.077402)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "f5d745d8-ab6a-436c-83ab-bc512602e43a")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "Aluminum"
+				(start 96.758575 186.094552)
+				(end 114.251791 190.077402)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "7bf327fd-9e42-4d5a-ab2c-c043ef303aef")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "8,7"
+				(start 114.251791 186.094552)
+				(end 127.702149 190.077402)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "a0e4c575-0721-4261-8453-2748931e184d")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
+			(table_cell "0,001"
+				(start 127.702149 186.094552)
+				(end 145.355375 190.077402)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "Cmts.User")
+				(uuid "4b02d5be-a7c5-4d4a-8068-57b9b3bf9cfb")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify right)
+				)
+			)
 		)
 	)
 	(dimension
