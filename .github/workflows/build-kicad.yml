@@ -43,25 +43,25 @@ jobs:
       - name: Extract schematic revision
         id: extract_sch_revision
         run: |
-          echo "value=$(perl -0777 -ne "print /\(title_block.+\(rev \"(.+?)\"\)/sg" ${{ inputs.schematic }})" >>${GITHUB_OUTPUT}
+          echo "value=$(perl -0777 -ne "print /\(title_block.+\(rev \"(.+?)\"\)/sg" '${{ inputs.schematic }}')" >>${GITHUB_OUTPUT}
         shell: bash
 
       - name: Extract PCB revision
         id: extract_pcb_revision
         run: |
-          echo "value=$(perl -0777 -ne "print /\(title_block.+\(rev \"(.+?)\"\)/sg" ${{ inputs.pcb }})" >>${GITHUB_OUTPUT}
+          echo "value=$(perl -0777 -ne "print /\(title_block.+\(rev \"(.+?)\"\)/sg" '${{ inputs.pcb }}')" >>${GITHUB_OUTPUT}
         shell: bash
 
       - name: Extract PCB revision label
         id: extract_pcb_revision_label
         run: |
-          echo "value=$(perl -0777 -ne "print /\(gr_text \".+\\\nVersion: (.+?)(?:\\\n|\")/g" ${{ inputs.pcb }})" >>${GITHUB_OUTPUT}
+          echo "value=$(perl -0777 -ne "print /\(gr_text \".+\\\nVersion: (.+?)(?:\\\n|\")/g" '${{ inputs.pcb }}')" >>${GITHUB_OUTPUT}
         shell: bash
 
       - name: Test if the revision number was extracted
         if: steps.extract_sch_revision.outputs.value == ''
         run: |
-          echo "::error::Failed to extract revision number from schematic file: ${{ inputs.schematic }}"
+          echo "::error::Failed to extract revision number from schematic file: '${{ inputs.schematic }}'"
           exit 1
         shell: bash
 
